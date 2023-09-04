@@ -22,7 +22,7 @@ function parseLines(text) {
 		map.layers = groups;
 		
 		const marker = L.marker(
-			[lat, lon], { icon: getIcon(type, brand) }
+			[lat, lon], { icon: getIcon(type, brand, name) }
 		).bindPopup(`
 			<b class="popup-name">${name}</b>
 			<div class="popup-brand"><span class="popup-brand-icon ${clean(brand)}"></span> <span class="popup-brand-name">${brand}</span></div>
@@ -37,10 +37,15 @@ function parseLines(text) {
 		bounds.extend([lat, lon]);
 	}
 
-	// resize icons to size set in JS
 	document.querySelectorAll(".station").forEach((e) => {
+		// resize icons to size set in JS
 		e.style.setProperty("--icon-size", iconSize + "px");
 		e.style.setProperty("--border-size", iconSize / 8 + "px");
+		
+		// this is a hacky way of passing a title through
+		// we cannot use .element() because we haven't added the marker to the map yet
+		const titleClass = Array.from(e.classList).find(c => c.startsWith("title-"));
+		if(titleClass) e.title = titleClass.replace("title-", "").replace(/-/g, " ");
 	});
 
 	// add layer control
@@ -51,11 +56,12 @@ function parseLines(text) {
 }
 
 
-function getIcon(type, brand) {
-	return L.divIcon({
-		className: `station ${clean(type)} ${clean(brand)}`,
+function getIcon(type, brand, title) {
+	let titleClass = title ? `title-${clean(title, true)}` : "";
+	console.log(titleClass);
 
-		html: ``,
+	return L.divIcon({
+		className: `station ${clean(type)} ${clean(brand)} ${titleClass}`,
 
 		iconSize: [iconSize, iconSize],
 		iconAnchor: [iconSize / 2, iconSize / 2],
@@ -64,6 +70,9 @@ function getIcon(type, brand) {
 
 }
 
-function clean(string) {
-	return string.toLowerCase().replace(/[^A-Za-z0-9]/g, "-");
+function clean(string, isTitle) {
+	// isTitle will only remove spaces
+	// otherwise, swap all non-alphanumeric characters and make lowercase
+
+	return isTitle ? string.replace(/ /g, "-") : string.toLowerCase().replace(/[^A-Za-z0-9]/g, "-");
 }
