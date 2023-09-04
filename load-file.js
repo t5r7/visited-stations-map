@@ -1,5 +1,5 @@
 // taken from https://github.com/itsmeimtom/speedtestdotnetcsvmap
-function loadFile(e) {
+async function loadFile(e) {
 	// https://usefulangle.com/post/193/javascript-read-local-file
 	let file = e.files[0];
 
