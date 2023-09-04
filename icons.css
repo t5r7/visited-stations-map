@@ -12,9 +12,10 @@
 	border: var(--border-size) solid #fff;
 	border-radius: 50%;
 
-	background-size: calc(var(--icon-size) - calc(var(--border-size)));
-	background-position: center center;
-	background-repeat: no-repeat;
+	/* not sure why these need !important now? */
+	background-size: 80% !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
 }
 
 .station:not(.no-aninate) {
