@@ -4,6 +4,9 @@ let map = L.map("map", {
 	zoom: 6
 });
 
+let groups = [];
+let markers = [];
+
 // L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // 	maxZoom: 19,
 // 	attribution: '© OpenStreetMap'

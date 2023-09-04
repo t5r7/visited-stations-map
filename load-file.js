@@ -35,6 +35,7 @@ function loadFile(e) {
 }
 
 async function loadGSheet() {
+	document.getElementById("cover").style.pointerEvents = "none";
 	document.getElementById("gsheet-load-link").innerText = "loading...";
 	document.getElementById("gsheet-load-link").removeAttribute("href");
 
@@ -46,8 +47,28 @@ async function loadGSheet() {
 
 	if(text) {
 		parseLines(text);
-		document.getElementById("cover").remove();
+		hideCover();
 	} else {
 		alert("error loading file, refresh and try again");
 	}
+}
+
+if(window.location.hash == "#gsheet") {
+	document.getElementById("usual-splash").style.display = "none";
+	document.getElementById("gsheet-splash").style.display = "block";
+	loadGSheet();
+}
+
+// nowhere else to put this
+function hideCover() {
+	const coverE = document.getElementById("cover");
+	const mapE = document.getElementById("map");
+
+	coverE.style.pointerEvents = "none";
+	coverE.style.opacity = 0;
+	mapE.classList.remove("blur");
+
+	setTimeout(() => {
+		coverE.remove();
+	}, 1500);
 }

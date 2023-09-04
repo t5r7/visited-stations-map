@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Map</title>
+	<title>Station Mapper</title>
 
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 	
@@ -21,12 +21,29 @@
 
 		body {
 			font-family: 'Inter', sans-serif;
+			background-color: #262626;
 		}
-
 
 		div#map {
 			width: 100vw;
 			height: 100vh;
+			opacity: 0;
+			animation: mapFadeIn 1s ease-out forwards;
+			transition: all 1.5s ease-out;
+		}
+
+		@keyframes mapFadeIn {
+			50% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+
+		div#map.blur {
+			filter: blur(8px);
+			transform: scale(1.3);
 		}
 
 		.leaflet-container {
@@ -92,6 +109,8 @@
 			justify-content: center;
 			align-items: center;
 			z-index: 9999;
+
+			transition: all 1s ease-out;
 		}
 
 		div#cover p {
@@ -119,42 +138,59 @@
 <body>
 	<div id="cover">
 		<div>
-			<h1>Station Mapper</h1>
+			<div id="usual-splash">
+				<h1>Station Mapper</h1>
 
-			<p>
-				This will map a list of stations you have visited.<br><br>
-				See&nbsp;<a href="https://go.tomr.me/stationmap">my&nbsp;Notion&nbsp;page</a> for more information, and for how I have formatted my spreadsheet.
-			</p>
+				<p>
+					This will map a list of stations you have visited.<br><br>
+					See&nbsp;<a href="https://go.tomr.me/stationmap">my&nbsp;Notion&nbsp;page</a> for more information, and for how I have formatted my spreadsheet.
+				</p>
 
-			<hr>
-		
+				<hr>
+			
 
-			<p>First, pick an <label>
-				icon size (currently <span id="icon-size">18</span>px)<br>
-				<input type="range" min="8" max="40" step="4" value="18" onload="this.value = 18;" onchange="document.getElementById('icon-size').innerText = this.value; iconSize = this.value;" autocomplete="off">
-			</label></p>
+				<p>First, pick an <label>
+					icon size (currently <span id="icon-size">18</span>px)<br>
+					<input type="range" min="8" max="40" step="4" value="18" onload="this.value = 18;" onchange="document.getElementById('icon-size').innerText = this.value; iconSize = this.value;" autocomplete="off">
+				</label></p>
 
-			<p>then,</p>
+				<p>then,</p>
 
-			<p><label>
-					<a href="javascript:document.getElementById('file-upload').click()">Choose</a> a CSV file to load.<br>
-					<input type="file" id="file-upload" style="opacity: 0; height: 0; width: 0; pointer-events: none;" onchange="loadFile(this); document.getElementById('cover').remove();" accept="text/csv" multiple="no" autocomplete="off">
-				</label> The map will load as soon as you select a file.
-			</p>
+				<p><label>
+						<a href="javascript:document.getElementById('file-upload').click()">Choose</a> a CSV file to load.<br>
+						<input type="file" id="file-upload" style="opacity: 0; height: 0; width: 0; pointer-events: none;" onchange="loadFile(this); hideCover();" accept="text/csv" multiple="no" autocomplete="off">
+					</label> The map will load as soon as you select a file.
+				</p>
 
-			<p style="font-weight: bold; font-style: italic; margin-top: -1.5em; margin-bottom: -1.5em;">or</p>
+				<p style="font-weight: bold; font-style: italic; margin-top: -1.5em; margin-bottom: -1.5em;">or</p>
 
-			<p>
-				<a href="javascript:loadGSheet()" id="gsheet-load-link">load my station list</a><br>
-			</p>
+				<p>
+					<a href="javascript:loadGSheet()" id="gsheet-load-link">load my station list</a><br>
+				</p>
 
-			<hr>
+				<hr>
 
-			<p>2023<br>by <a href="https://tomr.me">tom</a></p>
+				<p>2023<br>by <a href="https://tomr.me">tom</a></p>
+			</div>
+
+			<div id="gsheet-splash" style="display: none;">
+				<h1>Station Mapper</h1>
+
+				<hr>
+
+				<p>
+					Loading my station list from Google Sheets...
+				</p>
+
+				<hr>
+
+				<p>2023<br>by <a href="https://tomr.me">tom</a></p>
+
+			</div>
 		</div>
 	</div>
 
-	<div id="map"></div>
+	<div id="map" class="blur"></div>
 
 	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 

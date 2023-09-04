@@ -18,6 +18,9 @@ function parseLines(text) {
 		const brand = cols[6];
 		const firstVisitDate = cols[7];
 
+		if(!groups[type]) groups[type] = new L.LayerGroup().addTo(map);
+		map.layers = groups;
+		
 		const marker = L.marker(
 			[lat, lon], { icon: getIcon(type, brand) }
 		).bindPopup(`
@@ -25,7 +28,9 @@ function parseLines(text) {
 			<div class="popup-brand"><span class="popup-brand-icon ${clean(brand)}"></span> <span class="popup-brand-name">${brand}</span></div>
 			<span class="popup-type ${clean(type)}">${type}</span>
 			<span class="popup-visited">first visited<br>${firstVisitDate}</span>
-		`).addTo(map);
+		`);
+
+		groups[type].addLayer(marker);
 	}
 
 	// resize icons to size set in JS
@@ -33,6 +38,9 @@ function parseLines(text) {
 		e.style.setProperty("--icon-size", iconSize + "px");
 		e.style.setProperty("--border-size", iconSize / 8 + "px");
 	});
+
+	// add layer control
+	L.control.layers(null, groups).addTo(map);
 }
 
 
@@ -40,7 +48,7 @@ function getIcon(type, brand) {
 	return L.divIcon({
 		className: `station ${clean(type)} ${clean(brand)}`,
 
-		html: `<span class="icon"></span>`,
+		html: ``,
 
 		iconSize: [iconSize, iconSize],
 		iconAnchor: [iconSize / 2, iconSize / 2],
