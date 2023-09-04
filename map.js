@@ -4,6 +4,7 @@ let map = L.map("map", {
 	zoom: 6
 });
 
+let bounds = L.latLngBounds();
 let groups = [];
 let markers = [];
 

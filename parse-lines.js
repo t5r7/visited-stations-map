@@ -30,7 +30,11 @@ function parseLines(text) {
 			<span class="popup-visited">first visited<br>${firstVisitDate}</span>
 		`);
 
+		// add the marker to the layer
 		groups[type].addLayer(marker);
+
+		// add the marker to the bounds
+		bounds.extend([lat, lon]);
 	}
 
 	// resize icons to size set in JS
@@ -41,6 +45,9 @@ function parseLines(text) {
 
 	// add layer control
 	L.control.layers(null, groups).addTo(map);
+
+	// fit map to bounds, with animation and padding
+	map.fitBounds(bounds, { animate: true, duration: 5, easeLinearity: 0.5, padding: [50, 50] });
 }
 
 
