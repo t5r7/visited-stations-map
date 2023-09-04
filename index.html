@@ -6,6 +6,11 @@
 	<title>Map</title>
 
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="icons.css" />
 	<style>
 		html, body {
@@ -14,12 +19,65 @@
 			overflow: hidden;
 		}
 
-		#map {
+		body {
+			font-family: 'Inter', sans-serif;
+		}
+
+
+		div#map {
 			width: 100vw;
 			height: 100vh;
 		}
 
-		div#file-upload {
+		.leaflet-container {
+			font-family: inherit;
+		}
+
+		/* text in the popup */
+		.leaflet-popup-content span, .leaflet-popup-content b {
+			display: block;
+		}
+
+		.popup-name {
+			font-size: 1.3em;
+			font-weight: bolder;
+		}
+
+		.popup-brand {
+			font-size: 1.1em;
+			display: flex;
+			align-items: center;
+		}
+
+		span.popup-brand-icon {
+			display: inline-block;
+			width: 1.5em;
+			height: 1.5em;
+			
+			background-position: center center;
+			background-size: contain;
+			background-repeat: no-repeat;
+
+			margin-right: 0.5em;
+		}
+
+		span.popup-brand-name {
+			display: inline-block;
+		}
+
+		.popup-type {
+			border-left-width: 1.5em;
+			border-left-style: solid;
+			padding-left: 0.5em;
+			margin: 1em 0;
+		}
+
+		.popup-visited {
+			color: #555;
+			font-size: 0.8em;
+		}
+
+		div#cover {
 			position: fixed;
 			top: 0;
 			left: 0;
@@ -27,17 +85,72 @@
 			height: 100vh;
 			background-color: #0009;
 			color: #fff;
+			text-align: center;
 
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			z-index: 9999;
 		}
+
+		div#cover p {
+			max-width: 30em;
+			margin: 2em auto;
+		}
+
+		div#cover a {
+			color: #fff;
+		}
+
+		div#cover a:hover {
+			text-decoration: none;
+		}
+
+		div#cover hr {
+			width: 2em;
+			height: 0.5em;
+			margin: 2em auto;
+			border: none;
+			background-color: #aaa;
+		}
 	</style>
 </head>
 <body>
-	<div id="file-upload">
-		<input type="file" onchange="loadFile(this); this.parentElement.remove();" accept="text/csv" multiple="no" autocomplete="off">
+	<div id="cover">
+		<div>
+			<h1>Station Mapper</h1>
+
+			<p>
+				This will map a list of stations you have visited.<br><br>
+				See&nbsp;<a href="https://go.tomr.me/stationmap">my&nbsp;Notion&nbsp;page</a> for more information, and for how I have formatted my spreadsheet.
+			</p>
+
+			<hr>
+		
+
+			<p>First, pick an <label>
+				icon size (currently <span id="icon-size">18</span>px)<br>
+				<input type="range" min="8" max="40" step="4" value="18" onload="this.value = 18;" onchange="document.getElementById('icon-size').innerText = this.value; iconSize = this.value;" autocomplete="off">
+			</label></p>
+
+			<p>then,</p>
+
+			<p><label>
+					<a href="javascript:document.getElementById('file-upload').click()">Choose</a> a CSV file to load.<br>
+					<input type="file" id="file-upload" style="opacity: 0; height: 0; width: 0; pointer-events: none;" onchange="loadFile(this); document.getElementById('cover').remove();" accept="text/csv" multiple="no" autocomplete="off">
+				</label> The map will load as soon as you select a file.
+			</p>
+
+			<p style="font-weight: bold; font-style: italic; margin-top: -1.5em; margin-bottom: -1.5em;">or</p>
+
+			<p>
+				<a href="javascript:loadMine()">Load my station list</a>.
+			</p>
+
+			<hr>
+
+			<p>2023<br>by <a href="https://tomr.me">tom</a></p>
+		</div>
 	</div>
 
 	<div id="map"></div>

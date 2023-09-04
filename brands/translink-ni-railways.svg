@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_2"
+   x="0px"
+   y="0px"
+   viewBox="0 0 53.400002 59.037846"
+   xml:space="preserve"
+   sodipodi:docname="translink-ni-railways.svg"
+   width="53.400002"
+   height="59.037846"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"><metadata
+   id="metadata11"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs9" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="2560"
+   inkscape:window-height="1387"
+   id="namedview7"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="4.1185771"
+   inkscape:cx="51.597492"
+   inkscape:cy="42.404237"
+   inkscape:window-x="1072"
+   inkscape:window-y="96"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_2" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:#FFFFFF;}
+</style>
+<path
+   class="st0"
+   d="m 23.3,47.162847 h 6.9 v -24.2 h 9.7 v -6 H 13.5 v 6 h 9.8 z M 30.5,0.9628473 49.6,11.962847 c 2.3,1.3 3.8,3.8 3.8,6.5 v 22.1 c 0,2.7 -1.4,5.2 -3.8,6.5 l -19.1,11 c -2.3,1.3 -5.2,1.3 -7.5,0 l -19.2,-11 c -2.3,-1.3 -3.8,-3.8 -3.8,-6.5 v -22 c 0,-2.7 1.4,-5.2 3.8,-6.5 L 22.9,1.0628473 c 2.4,-1.4 5.2,-1.4 7.6,-0.1"
+   id="path4"
+   style="fill:#00d899;fill-opacity:1"
+   sodipodi:nodetypes="cccccccccccssccccssccc" />
+</svg>

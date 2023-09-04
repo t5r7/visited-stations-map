@@ -1,12 +1,18 @@
+/* map marker */
 .station {
+	--icon-size: 16px;
+	--border-size: 2px;
+
 	display: block;
-	width: 16px;
-	height: 16px;
+	width: var(--icon-size) !important;
+	height: var(--icon-size) !important;
 
-	border: 4px solid #fff;
 	background-color: #fff;
+	
+	border: var(--border-size) solid #fff;
+	border-radius: 50%;
 
-	background-size: contain;
+	background-size: calc(var(--icon-size) - calc(var(--border-size)));
 	background-position: center center;
 	background-repeat: no-repeat;
 }
@@ -37,3 +43,105 @@
 }
 
 /* brands */
+
+/* heavy rail */
+.gb-national-rail {
+	background-color: #fff;
+	background-image: url("brands/gb-national-rail.svg");
+}
+
+.translink-ni-railways {
+	background-color: #fff;
+	background-image: url("brands/translink-ni-railways.svg");
+}
+
+
+.danske-statsbaner {
+	background-color: #fff;
+	background-image: url("brands/danske-statsbaner.svg");
+}
+
+/* tfwm */
+.tfwm-west-mids-metro {
+	background-color: #fff;
+	background-image: url("brands/tfwm-west-mids-metro.svg");
+}
+
+/* tfl */
+.tfl-elizabeth-line {
+	background-color: #fff;
+	background-image: url("brands/tfl-elizabeth-line.png");
+}
+
+.tfl-underground {
+	background-color: #fff;
+	background-image: url("brands/tfl-underground.png");
+}
+
+.tfl-dlr {
+	background-color: #fff;
+	background-image: url("brands/tfl-dlr.png");
+}
+
+.tfl-river {
+	background-color: #fff;
+	background-image: url("brands/tfl-river.png");
+}
+
+/* metros */
+.nexus-tyne---wear-metro {
+	background-color: #fff;
+	background-image: url("brands/nexus-tyne---wear-metro.svg");
+}
+
+.spt-glasgow-subway {
+	background-color: #fff;
+	background-image: url("brands/spt-glasgow-subway.svg");
+}
+
+.k-benhavn-metro {
+	background-color: #fff;
+	background-image: url("brands/k-benhavn-metro.svg");
+}
+
+/* boats */
+.stena-line {
+	background-color: #fff;
+	background-image: url("brands/stena-line.svg");
+}
+
+.nexus-shields-ferry {
+	background-color: #fff;
+	background-image: url("brands/nexus-shields-ferry.png");
+}
+
+.movia-dk {
+	background-color: #fff;
+	background-image: url("brands/movia-dk.svg");
+}
+
+.f-rgen-frederiksborg {
+	background-color: #fff;
+	background-image: url("brands/f-rgen-frederiksborg.jpg");
+}
+
+/* misc */
+.thomas-land-at-drayton-manor {
+	background-color: #fff;
+	background-image: url("brands/thomas-land-at-drayton-manor.png");
+}
+
+.black-country-living-museum {
+	background-color: #fff;
+	background-image: url("brands/black-country-living-museum.png");
+}
+
+.gatwick-airport-inter-terminal-shuttle {
+	background-color: #fff;
+	background-image: url("brands/gatwick-airport-inter-terminal-shuttle.svg");
+}
+
+.birmingham-airport-air-rail-link {
+	background-color: #fff;
+	background-image: url("brands/birmingham-airport-air-rail-link.svg");
+}

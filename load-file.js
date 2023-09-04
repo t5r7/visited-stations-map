@@ -33,3 +33,7 @@ function loadFile(e) {
 
 	r.readAsText(file);
 }
+
+function loadMine() {
+	alert("todo!");
+}

@@ -1,3 +1,5 @@
+let iconSize = 18;
+
 function parseLines(text) {
 	const lines = text.split("\n");
 	
@@ -18,26 +20,35 @@ function parseLines(text) {
 
 		const marker = L.marker(
 			[lat, lon], { icon: getIcon(type, brand) }
-		).bindPopup(
-			`<b>${name}</b><br>${type} (${brand})<br>${firstVisitDate}`
-		).addTo(map);
+		).bindPopup(`
+			<b class="popup-name">${name}</b>
+			<div class="popup-brand"><span class="popup-brand-icon ${clean(brand)}"></span> <span class="popup-brand-name">${brand}</span></div>
+			<span class="popup-type ${clean(type)}">${type}</span>
+			<span class="popup-visited">first visited<br>${firstVisitDate}</span>
+		`).addTo(map);
 	}
+
+	// resize icons to size set in JS
+	document.querySelectorAll(".station").forEach((e) => {
+		e.style.setProperty("--icon-size", iconSize + "px");
+		e.style.setProperty("--border-size", iconSize / 8 + "px");
+	});
 }
 
+
 function getIcon(type, brand) {
-	const typeClean = type.toLowerCase().replace(/[^A-Za-z0-9]/g, "-");
-	const brandClean = brand.toLowerCase().replace(/[^A-Za-z0-9]/g, "-");
-
-	console.log(typeClean, brandClean);
-
 	return L.divIcon({
-		className: `station ${typeClean} ${brandClean}`,
+		className: `station ${clean(type)} ${clean(brand)}`,
 
 		html: `<span class="icon"></span>`,
 
-		iconSize: [16, 16],
-		iconAnchor: [8, 8],
-		popupAnchor: [0, 8]
+		iconSize: [iconSize, iconSize],
+		iconAnchor: [iconSize / 2, iconSize / 2],
+		popupAnchor: [0, 0],
 	});
 
+}
+
+function clean(string) {
+	return string.toLowerCase().replace(/[^A-Za-z0-9]/g, "-");
 }
