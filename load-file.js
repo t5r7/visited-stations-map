@@ -34,6 +34,20 @@ function loadFile(e) {
 	r.readAsText(file);
 }
 
-function loadMine() {
-	alert("todo!");
+async function loadGSheet() {
+	document.getElementById("gsheet-load-link").innerText = "loading...";
+	document.getElementById("gsheet-load-link").removeAttribute("href");
+
+	const gSheetID = "1RD-5-8crKwORuKXBFUmFvfsBLY_4UsE08_duTvG-218";
+	const gSheetUrl = `https://docs.google.com/spreadsheets/d/${gSheetID}/export?format=csv`;
+	
+	const response = await fetch(gSheetUrl);
+	const text = await response.text();
+
+	if(text) {
+		parseLines(text);
+		document.getElementById("cover").remove();
+	} else {
+		alert("error loading file, refresh and try again");
+	}
 }
