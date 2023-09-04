@@ -56,7 +56,7 @@ function getSub(code) {
 	}
 
 	if (subdivisions[code]) {
-		if(!flagURL) flagURL = `flags/${code[0].toLowerCase()}.svg`
+		if (!flagURL) flagURL = `flags/${subdivisions[code][0].toLowerCase()}.svg`
 
 		return {
 			found: true,
