@@ -45,7 +45,7 @@ function parseLines(text) {
 		// this is a hacky way of passing a title through
 		// we cannot use .element() because we haven't added the marker to the map yet
 		const titleClass = Array.from(e.classList).find(c => c.startsWith("title-"));
-		if(titleClass) e.title = titleClass.replace("title-", "").replace(/-/g, " ");
+		if(titleClass) e.title = titleClass.replace("title-", "").replace(/-/g, " ").replace(/(DASHGOESHERE)/g, "-");
 	});
 
 	// add layer control
@@ -58,7 +58,6 @@ function parseLines(text) {
 
 function getIcon(type, brand, title) {
 	let titleClass = title ? `title-${clean(title, true)}` : "";
-	console.log(titleClass);
 
 	return L.divIcon({
 		className: `station ${clean(type)} ${clean(brand)} ${titleClass}`,
@@ -71,8 +70,8 @@ function getIcon(type, brand, title) {
 }
 
 function clean(string, isTitle) {
-	// isTitle will only remove spaces
+	// isTitle will only remove spaces (and will keep dashes)
 	// otherwise, swap all non-alphanumeric characters and make lowercase
 
-	return isTitle ? string.replace(/ /g, "-") : string.toLowerCase().replace(/[^A-Za-z0-9]/g, "-");
+	return isTitle ? string.replace(/-/g, "DASHGOESHERE").replace(/ /g, "-") : string.toLowerCase().replace(/[^A-Za-z0-9]/g, "-");
 }
