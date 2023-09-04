@@ -26,7 +26,7 @@
 	0% {
 		opacity: 0;
 	}
-	
+
 	100% {
 		filter: none;
 		opacity: 1;
@@ -115,9 +115,9 @@
 	background-image: url("brands/spt-glasgow-subway.svg");
 }
 
-.k-benhavn-metro {
+.k-benhavns-metro {
 	background-color: #fff;
-	background-image: url("brands/k-benhavn-metro.svg");
+	background-image: url("brands/k-benhavns-metro.svg");
 }
 
 /* boats */
