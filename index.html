@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Map</title>
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+	<link rel="stylesheet" href="icons.css" />
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+
+		#map {
+			width: 100vw;
+			height: 100vh;
+		}
+
+		div#file-upload {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			background-color: #0009;
+			color: #fff;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			z-index: 9999;
+		}
+	</style>
+</head>
+<body>
+	<div id="file-upload">
+		<input type="file" onchange="loadFile(this); this.parentElement.remove();" accept="text/csv" multiple="no" autocomplete="off">
+	</div>
+
+	<div id="map"></div>
+
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+	<script src="map.js"></script>
+	<script src="load-file.js"></script>
+	<script src="parse-lines.js"></script>
+</body>
+</html>
