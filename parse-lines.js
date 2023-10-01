@@ -20,6 +20,7 @@ async function parseLines(text) {
 		const type = cols[5];
 		const brand = cols[6];
 		const firstVisitDate = cols[7];
+		const englishName = cols[8].length > 1 ? cols[8] : false;
 
 		const sub = getSub(country);
 		const countryCode = sub.country;
@@ -34,7 +35,13 @@ async function parseLines(text) {
 		).bindPopup(`
 			<b class="popup-name">${name}<span class="popup-crs">${crs ? crs : ""}</span></b>
 			
+			${
+				englishName ? `<i class="popup-english-name">${englishName}</i>`
+				: ""
+			}
+			
 			<div class="popup-location"><span title="${countryCode}" class="popup-location-flag" style="background-image: url('${flagURL}')"></span> <span class="popup-location-name">${subdivision}</span></div>
+
 
 			<div class="popup-brand"><span class="popup-brand-icon ${clean(brand)}"></span> <span class="popup-brand-name">${brand}</span></div>
 
