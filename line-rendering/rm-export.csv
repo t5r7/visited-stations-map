@@ -1,0 +1,473 @@
+origin_name,destination_name
+Kings Norton,Birmingham New Street
+Birmingham New Street,Bescot Stadium
+Wednesbury Parkway,The Hawthorns
+The Hawthorns,Birmingham Snow Hill
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Bournville
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Moor Street,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Bournville
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Grand Central,Edgbaston Village
+Edgbaston Village,Wolverhampton St George's
+Birmingham Moor Street,Birmingham Snow Hill
+Birmingham Snow Hill,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,University
+University,Kings Norton
+Kings Norton,Birmingham New Street
+Coventry,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,London Euston
+London Euston,Harlesden
+Harlesden,London Euston
+London Euston,Coventry
+Tile Hill,Hampton-in-Arden
+Hampton-in-Arden,Berkswell
+Berkswell,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Bournville
+Kings Norton,Birmingham New Street
+Grand Central,Bull Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Grand Central,Bull Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Snow Hill
+St Chads,Grand Central
+Birmingham New Street,University
+University,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Moor Street,London Marylebone
+Marylebone,Waterloo
+London Waterloo,Portsmouth & Southsea
+Portsmouth & Southsea,London Waterloo
+Waterloo,Canary Wharf (LU)
+Canary Wharf,London Paddington
+Paddington,Marylebone
+London Marylebone,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Dorridge
+Dorridge,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Cannock
+Cannock,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Milton Keynes Central
+Milton Keynes Central,Bletchley
+Bletchley,Milton Keynes Central
+Milton Keynes Central,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Moor Street,Birmingham Snow Hill
+Birmingham Snow Hill,Jewellery Quarter
+Jewellery Quarter,Grand Central
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Snow Hill
+Corporation Street,Grand Central
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Lichfield Trent Valley
+Lichfield City,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Moor Street
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Solihull
+Solihull,Birmingham Snow Hill
+Birmingham New Street,Kings Norton
+Kings Norton,University
+University,Great Malvern
+Great Malvern,Bromsgrove
+Bromsgrove,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Bloxwich North
+Bloxwich,Tame Bridge Parkway
+Tame Bridge Parkway,Hamstead
+Hamstead,Birmingham New Street
+Birmingham New Street,Birmingham International
+Birmingham International,Birmingham Airport
+Birmingham Airport,Birmingham International
+Birmingham International,Adderley Park
+Adderley Park,Birmingham International
+Birmingham International,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Longbridge
+Longbridge,Kings Norton
+Kings Norton,Birmingham New Street
+Grand Central,Brindleyplace
+Birmingham New Street,Canley
+Canley,Birmingham New Street
+Birmingham Moor Street,Lye
+Lye,Langley Green
+Langley Green,Cradley Heath
+Cradley Heath,Rowley Regis
+Old Hill,Smethwick Galton Bridge
+Smethwick Galton Bridge,Birmingham New Street
+Birmingham New Street,Canley
+Canley,Birmingham New Street
+Birmingham New Street,Canley
+Canley,Birmingham New Street
+Birmingham New Street,Coseley
+Coseley,Smethwick Rolfe Street
+Smethwick Rolfe Street,Dudley Port
+Tipton,Sandwell & Dudley
+Sandwell & Dudley,Birmingham New Street
+Birmingham Moor Street,Earlswood (West Midlands)
+Earlswood (West Midlands),Birmingham Moor Street
+Birmingham New Street,Coventry
+Coventry,Coventry Arena
+Coventry Arena,Coventry
+Coventry,Canley
+Coventry,Birmingham New Street
+Grand Central,Corporation Street
+Birmingham Moor Street,Dorridge
+Dorridge,Birmingham Snow Hill
+St Chads,Grand Central
+Birmingham New Street,Kings Norton
+Kings Norton,University
+University,Worcester Foregate Street
+Worcester Foregate Street,Bromsgrove
+Bromsgrove,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Moor Street,London Marylebone
+Marylebone,Oxford Circus
+Oxford Circus,Victoria
+London Victoria,Gatwick Airport
+South Terminal,North Terminal
+CPH Lufthavn,Tårnby
+Tårnby,Ørestad
+Ørestad (Metro),Nørreport (Metro)
+Nørreport,Svanemøllen
+Trianglen (Metro),Rådhuspladsen (Metro)
+Kongens Nytorv (Metro),Marmorkirken (Metro)
+Nordre Toldbod (Københavns Havn),Orientkaj
+Orientkaj (Metro),Gammel Strand (Metro)
+Gammel Strand (Metro),Østerport (Metro)
+Østerport,Svanemøllen
+Svanemøllen,Østerport
+Østerport,Tårnby
+Tårnby,København H
+København H (Metro),Trianglen (Metro)
+Ryparken,København H
+Tårnby,CPH Lufthavn
+Københavns Lufthavn (Metro),Christianshavn (Metro)
+Christianshavn (Metro),Nørreport (Metro)
+Kongens Nytorv (Metro),København H (Metro)
+København H,Østerport
+Østerport,København H
+København H,Tårnby
+Tårnby,København H
+København H,Lyngby
+Lyngby,Hillerød
+Torvet (Hillerød),Slottet (Hillerød)
+Hillerød,Nørreport
+Nørreport,Sydhavn
+Tårnby,CPH Lufthavn
+Københavns Lufthavn (Metro),Nørreport (Metro)
+Nørreport,Dybbølsbro
+Dybbølsbro,Valby
+Ålholm,Vigerslev Allé
+København H,Tårnby
+Tårnby,Roskilde
+Roskilde,København H
+Rådhuspladsen (Metro),København H (Metro)
+København H,Tårnby
+Tårnby,København H
+København H,Kildedal
+Kildedal,Klampenborg
+Klampenborg,København H
+København H,Nørreport
+Nørreport (Metro),Amager Strand (Metro)
+Amager Strand (Metro),Københavns Lufthavn (Metro)
+CPH Lufthavn,Tårnby
+Tårnby,CPH Lufthavn
+North Terminal,South Terminal
+Gatwick Airport,Clapham Junction
+Clapham Junction,London Waterloo
+Waterloo,Marylebone
+London Marylebone,Solihull
+Kings Norton,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Moor Street,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Kings Norton,Birmingham New Street
+Birmingham Moor Street,London Marylebone
+Marylebone,Embankment
+Monument,King's Cross St. Pancras
+King's Cross St. Pancras,Green Park
+Green Park,Waterloo
+Bank,Canary Wharf
+Canary Wharf,West India Quay
+Canary Wharf,Farringdon
+Farringdon,Luton
+Luton,St Pancras International
+London Kings Cross,Finsbury Park
+Finsbury Park,Moorgate
+London Liverpool Street,Tottenham Court Road
+Tottenham Court Road,Farringdon
+Farringdon,Luton
+Luton,St Pancras International
+King's Cross St. Pancras,Oxford Circus
+Oxford Circus,Marylebone
+Baker Street,Great Portland Street
+Euston,Bank
+Monument,Embankment
+Embankment,Marylebone
+London Marylebone,Solihull
+Solihull,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Walsall,Birmingham New Street
+Birmingham New Street,University
+University,Birmingham New Street
+Town Hall,Bull Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Moor Street,London Marylebone
+Marylebone,Embankment
+Green Park,Victoria
+Victoria,Monument
+London Bridge,London Blackfriars
+London Blackfriars,St Pancras International
+King's Cross St. Pancras,Oxford Circus
+Oxford Circus,Marylebone
+London Marylebone,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,University
+University,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,London Euston
+London Euston,Glasgow Central
+St Enoch,Govan
+Govan,Buchanan Street
+Glasgow Central,Ayr
+Ayr,Cairnryan (Loch Ryan Port)
+Cairnryan (Loch Ryan Port),Belfast Port
+Yorkgate,Derry~Londonderry
+Lanyon Place,Great Victoria Street
+Belfast Port,Cairnryan (Loch Ryan Port)
+Cairnryan (Loch Ryan Port),Ayr
+Ayr,Glasgow Central
+Glasgow Queen Street,Edinburgh
+Edinburgh,Newcastle
+Manors,St James
+Haymarket,Central Station
+Monument,North Shields
+North Shields,South Shields
+South Shields,Pelaw Tyne & Wear Metro
+Pelaw Tyne & Wear Metro,Sunderland
+Sunderland,Newcastle
+Central Station,South Shields
+South Shields,North Shields
+North Shields,Manors
+Newcastle,London Kings Cross
+King's Cross St. Pancras,Euston
+London Euston,Rugby
+Rugby,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,London Marylebone
+Marylebone,Oxford Circus
+Charing Cross,Battersea Power Station
+Battersea Power Station,Waterloo
+London Waterloo,London Waterloo
+Waterloo,Baker Street
+London Marylebone,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Shrewsbury
+Shrewsbury,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Snow Hill,Shirley
+Shirley,Bordesley
+St Chads,Five Ways
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Coventry
+Coventry,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,University
+University,Cheltenham Spa
+Cheltenham Spa,Bristol Temple Meads
+Bristol Temple Meads,Gloucester
+Gloucester,University
+University,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Coventry
+Coventry,Birmingham New Street
+Birmingham Snow Hill,Birmingham Moor Street
+Corporation Street,Library
+Birmingham New Street,University
+University,Bournville
+Portsmouth & Southsea,Godalming
+Godalming,Guildford
+Guildford,Gatwick Airport
+Gatwick Airport,Haywards Heath
+Haywards Heath,Burgess Hill
+Burgess Hill,Brighton
+Brighton,Gatwick Airport
+Gatwick Airport,Guildford
+Guildford,Portsmouth & Southsea
+Portsmouth & Southsea,Havant
+Havant,Brighton
+Brighton,Havant
+Havant,Portsmouth & Southsea
+Portsmouth & Southsea,London Waterloo
+Waterloo,Marylebone
+Marylebone,Oxford Circus
+Oxford Circus,Bank
+Bank,Cutty Sark
+Cutty Sark,Canary Wharf
+Canary Wharf,London Liverpool Street
+Liverpool Street,Baker Street
+Baker Street,Marylebone
+Marylebone,Paddington
+London Paddington,Farringdon
+Farringdon,London Bridge
+London Bridge,London Charing Cross
+London Charing Cross,London Waterloo East
+London Waterloo,Portsmouth & Southsea
+Portsmouth & Southsea,Southampton Central
+Southampton Central,Birmingham New Street
+Birmingham New Street,Kings Norton
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Wolverhampton
+Wolverhampton Station,The Royal
+The Royal,Pipers Row
+Wolverhampton,Birmingham New Street
+Birmingham New Street,Canley
+Canley,Birmingham New Street
+Birmingham New Street,University
+University,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Moor Street,High Wycombe
+High Wycombe,London Marylebone
+Marylebone,Oxford Circus
+Oxford Circus,Victoria
+London Victoria,Havant
+Havant,Portsmouth & Southsea
+Portsmouth & Southsea,Bedhampton
+Havant,Portsmouth & Southsea
+Portsmouth & Southsea,Barnham
+Barnham,Billingshurst
+Billingshurst,Arundel
+Arundel,Pulborough
+Pulborough,Horsham
+Horsham,Dorking
+Dorking,Clapham Junction
+Clapham Junction,Burgess Hill
+Burgess Hill,Hove
+Hove,Portsmouth & Southsea
+Portsmouth & Southsea,Horsham
+Horsham,Crawley
+Burgess Hill,Brighton
+Brighton,Portsmouth & Southsea
+Fratton,Portsmouth Harbour
+Fratton,Portsmouth & Southsea
+Portsmouth & Southsea,London Waterloo
+Waterloo,Marylebone
+London Marylebone,Birmingham Moor Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,University
+University,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Moor Street,London Marylebone
+Marylebone,Oxford Circus
+Oxford Circus,Victoria
+London Victoria,Horsham
+Horsham,Portsmouth & Southsea
+Portsmouth & Southsea,Barnham
+Barnham,Bognor Regis
+Bognor Regis,Barnham
+Barnham,Havant
+Havant,Portsmouth & Southsea

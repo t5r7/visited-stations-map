@@ -36,8 +36,8 @@ async function loadFile(e) {
 
 async function loadGSheet() {
 	document.getElementById("cover").style.pointerEvents = "none";
-	document.getElementById("gsheet-load-link").innerText = "loading...";
-	document.getElementById("gsheet-load-link").removeAttribute("href");
+	// document.getElementById("gsheet-load-link").innerText = "loading...";
+	// document.getElementById("gsheet-load-link").removeAttribute("href");
 
 	const gSheetID = "1RD-5-8crKwORuKXBFUmFvfsBLY_4UsE08_duTvG-218";
 	const gSheetUrl = `https://docs.google.com/spreadsheets/d/${gSheetID}/export?format=csv`;
@@ -46,18 +46,18 @@ async function loadGSheet() {
 	const text = await response.text();
 
 	if(text) {
-		parseLines(text);
-		hideCover();
+		await parseLines(text);
+		window.setTimeout(hideCover, 1000);
 	} else {
 		alert("error loading file, refresh and try again");
 	}
 }
 
-if(window.location.hash == "#gsheet") {
-	document.getElementById("usual-splash").style.display = "none";
+// if(window.location.hash == "#gsheet") {
+	// document.getElementById("usual-splash").style.display = "none";
 	document.getElementById("gsheet-splash").style.display = "block";
 	loadGSheet();
-}
+// }
 
 // nowhere else to put this
 function hideCover() {

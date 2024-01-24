@@ -162,7 +162,7 @@
 <body>
 	<div id="cover">
 		<div>
-			<div id="usual-splash">
+			<!-- <div id="usual-splash">
 				<h1>Station Mapper</h1>
 
 				<p>
@@ -194,16 +194,17 @@
 
 				<hr>
 
-				<p>2023<br>by <a href="https://tomr.me">tom</a></p>
+				<p>2024<br>by <a href="https://tomr.me">tom</a></p>
 				
 				<p style="font-size: 0.8em; text-align: left; opacity: 0.8;">
 					Map powered by <a href="https://leafletjs.com/">Leaflet</a> and <a href="https://www.carto.com/">Carto</a><br>
 					Flag icons by <a href="https://flagicons.lipis.dev/">lipis</a><br>
-					ISO 3166-2 Subdivision Codes data from <a href="https://www.ip2location.com/free/iso3166-2">ip2location</a>
+					ISO 3166-2 Subdivision Codes data from <a href="https://www.ip2location.com/free/iso3166-2">ip2location</a><br>
+					Station data from <a href="https://github.com/davwheat/uk-railway-stations/">davwheat</a> and <a href="https://github.com/trainline-eu/stations">Trainline</a>
 				</p>
-			</div>
+			</div> -->
 
-			<div id="gsheet-splash" style="display: none;">
+			<div id="gsheet-splash">
 				<h1>Station Mapper</h1>
 
 				<hr>
@@ -214,9 +215,12 @@
 
 				<hr>
 
-				<p>2023<br>by <a href="https://tomr.me">tom</a></p>
-				<p>
-					For attributions, check the <a href="README.md">README</a><div class=""></div>
+				<p>2024<br>by <a href="https://tomr.me">tom</a></p>
+				<p style="font-size: 0.8em; text-align: left; opacity: 0.8;">
+					Map powered by <a href="https://leafletjs.com/">Leaflet</a> and <a href="https://www.carto.com/">Carto</a><br>
+					Flag icons by <a href="https://flagicons.lipis.dev/">lipis</a><br>
+					ISO 3166-2 Subdivision Codes data from <a href="https://www.ip2location.com/free/iso3166-2">ip2location</a><br>
+					Station data from <a href="https://github.com/davwheat/uk-railway-stations/">davwheat</a> and <a href="https://github.com/trainline-eu/stations">Trainline</a>
 				</p>
 			</div>
 		</div>
@@ -230,5 +234,8 @@
 	<script src="map.js"></script>
 	<script src="load-file.js"></script>
 	<script src="parse-lines.js"></script>
+
+	<script src="line-rendering/stations.js"></script>
+	<script src="line-rendering/add-connecting-lines.js"></script>
 </body>
 </html>
