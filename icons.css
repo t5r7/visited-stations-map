@@ -90,6 +90,16 @@
 	background-image: url("brands/danske-statsbaner.svg");
 }
 
+.sbb-cff-ffs {
+	background-color: #fff;
+	background-image: url("brands/sbb-cff-ffs.png");
+}
+
+.sncf {
+	background-color: #fff;
+	background-image: url("brands/sncf.svg");
+}
+
 /* tfwm */
 .tfwm-west-mids-metro {
 	background-color: #fff;
@@ -131,6 +141,11 @@
 .k-benhavns-metro {
 	background-color: #fff;
 	background-image: url("brands/k-benhavns-metro.svg");
+}
+
+.ratp-paris-m-tro {
+	background-color: #fff;
+	background-image: url("brands/ratp-paris-m-tro.jpg");
 }
 
 /* boats */
