@@ -93,6 +93,7 @@
 .sbb-cff-ffs {
 	background-color: #fff;
 	background-image: url("brands/sbb-cff-ffs.png");
+	background-size: 105% !important;
 }
 
 .sncf {
