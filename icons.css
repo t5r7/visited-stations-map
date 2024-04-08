@@ -71,6 +71,11 @@
 	background-color: #744f41;
 }
 
+.cable-car-funicular {
+	border-color: #9c27b0;
+	background-color: #9c27b0;
+}
+
 /* brands */
 
 /* heavy rail */
@@ -96,9 +101,24 @@
 	background-size: 105% !important;
 }
 
+.-bb {
+	 background-color: #fff;
+	 background-image: url("brands/-bb.svg")
+}
+
 .sncf {
 	background-color: #fff;
 	background-image: url("brands/sncf.svg");
+}
+
+.-esk--dr-hy {
+	background-color: #fff;
+	background-image: url("brands/cd.svg");
+}
+
+.deutsche-bahn {
+	background-color: #fff;
+	background-image: url("brands/db.svg");
 }
 
 /* tfwm */
@@ -148,6 +168,30 @@
 	background-color: #fff;
 	background-image: url("brands/ratp-paris-m-tro.jpg");
 }
+
+.wiener-linien--wiener-stra-enbahn-, .wiener-linien--u-bahn-wien- {
+	background-color: #fff;
+	background-image: url("brands/wiener-linien.jpg")
+}
+
+.-bb--s-bahn-wien- {
+	background-color: #fff;
+	background-image: url("brands/bb--s-bahn-wien.svg");
+}
+
+.pra-sk--metro {
+	background-color: #fff;
+	background-image: url("brands/pid-metro.svg");
+	background-size: 105% !important;
+}
+
+
+.pra-sk--tramvaje {
+	background-color: #fff;
+	background-image: url("brands/pid-tram.svg");
+	background-size: 105% !important;
+}
+
 
 /* boats */
 .stena-line {
