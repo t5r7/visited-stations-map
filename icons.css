@@ -192,6 +192,16 @@
 	background-size: 105% !important;
 }
 
+.s-bahn-berlin {
+	background-color: #fff;
+	background-image: url("brands/de-sbahn.svg");
+}
+
+.u-bahn-berlin {
+	background-color: #fff;
+	background-image: url("brands/de-ubahn.svg");
+}
+
 
 /* boats */
 .stena-line {
