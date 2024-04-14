@@ -121,6 +121,12 @@
 	background-image: url("brands/db.svg");
 }
 
+.nederlandse-spoorwegen {
+	background-color: #fff;
+	background-image: url("brands/nederlandse-spoorwegen.svg");
+
+}
+
 /* tfwm */
 .tfwm-west-mids-metro {
 	background-color: #fff;
@@ -202,6 +208,11 @@
 	background-image: url("brands/de-ubahn.svg");
 }
 
+.stra-enbahn-berlin {
+	background-color: #fff;
+	background-image: url("brands/de-tram.svg");
+
+}
 
 /* boats */
 .stena-line {
