@@ -11,10 +11,8 @@ let markers = [];
 // TODO: connecting lines should be an extra layer/overlay thing (hidden by default)
 // instead of this button and adding to the map directly
 const extraAtts = ` |
-made by <a href="https://tomr.me">tom</a> &bull;
-<a href="https://github.com/itsmeimtom/station-mapper">about &amp; source</a><span id="connecting-lines"> &bull;
-<a href="javascript:addConnectingLines();">add connecting lines (uk only, 2023&ndash;)</a></span>
-`;
+by <a href="https://tomr.me">tom</a> &bull;
+<a href="https://github.com/t5r7/visited-stations-map">about &amp; source</a><span id="connecting-lines"> &bull;`;
 
 // L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // 	maxZoom: 19,
