@@ -94,6 +94,8 @@ function getIcon(type, brand, title) {
 
 // copilot wrote this function!!
 function getRelativeDate(date) {
+	if(date.includes("pre")) return "pre-2023";
+
 	const today = new Date();
 	const dateObj = new Date(date);
 
@@ -118,6 +120,10 @@ function getRelativeDate(date) {
 
 // chatgpt wrote this one!
 function formatDate(inputDate) {
+	if (!inputDate) return "";
+
+	if (inputDate.includes("pre")) return " before the spreadsheet";
+
 	// Create a Date object from the inputDate string
 	const date = new Date(inputDate);
 
