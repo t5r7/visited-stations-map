@@ -471,3 +471,250 @@ Barnham,Bognor Regis
 Bognor Regis,Barnham
 Barnham,Havant
 Havant,Portsmouth & Southsea
+Portsmouth & Southsea,Southampton Central
+Southampton Central,Eastleigh
+Eastleigh,Southampton Central
+Southampton Central,Fratton
+Fratton,Portsmouth & Southsea
+Portsmouth & Southsea,Brighton
+Brighton,St Leonards Warrior Square
+Marine Parade,Rock-A-Nore
+"Bottom (West Hill Rly, Hastings)","Top (West Hill Rly, Hastings)"
+"Top (West Hill Rly, Hastings)","Bottom (West Hill Rly, Hastings)"
+Hastings,Rye
+Rye,Ashford International
+Ashford International,Tonbridge
+Tonbridge,Redhill
+Redhill,Horsham
+Horsham,Havant
+Havant,Portsmouth & Southsea
+Portsmouth & Southsea,London Waterloo
+Waterloo,Marylebone
+Marylebone,Waterloo
+Leicester Square,Green Park
+Green Park,Victoria
+Lancaster Gate,Oxford Circus
+Baker Street,Marylebone
+Marylebone,Paddington
+London Paddington,London Liverpool Street
+London Liverpool Street,Tottenham Hale
+Tottenham Hale,Blackhorse Road
+Blackhorse Road,Barking
+Barking,West Ham
+West Ham,London Fenchurch Street
+Tower Hill,Cannon Street
+London Cannon Street,London Bridge
+London Bridge,London Waterloo East
+London Waterloo,Portsmouth & Southsea
+Portsmouth & Southsea,London Waterloo
+Waterloo,Marylebone
+London Marylebone,Solihull
+Kings Norton,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Bournville
+Kings Norton,University
+University,Worcestershire Parkway
+Worcestershire Parkway,Evesham
+Evesham,Worcester Foregate Street
+Worcester Foregate Street,Droitwich Spa
+Droitwich Spa,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Eastleigh
+Eastleigh,Portsmouth & Southsea
+Portsmouth & Southsea,London Waterloo
+Waterloo,Marylebone
+London Marylebone,Solihull
+Kings Norton,University
+University,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Leeds
+Leeds,London Kings Cross
+St Pancras International,Paris Nord
+Stalingrad,Gare de l'Est
+Paris Est,Strasbourg-Ville
+Strasbourg-Ville,Basel SBB
+Basel SBB,Zürich HB
+Zürich HB,Rapperswil SG
+Hurden,Pfäffikon SZ
+Pfäffikon SZ,Zürich HB
+Zürich HB,Wien Hbf
+Reumannplatz,Stephansplatz
+"Rathusplatz, Burgtheater","Oper, Karlsplatz U"
+Karlsplatz,Schönbrunn
+Schönbrunn,Stadtpark
+Wien Mitte,Praterstern
+"Prater, Hauptallee",Schwedenplatz
+Schwedenplatz,Donauinsel
+Donaustadtbrücke,Schottenring
+Schottenring,Rennweg
+Rennweg,Arthaberplatz
+Arthaberplatz,Gellertplatz
+Hlawkagasse,Haptbahnhof Ost S
+Wien Hbf,Praha hl.n
+Hlavní nádraží,I. P. Pavlova
+I. P. Pavlova,Národní třída
+I. P. Pavlova,Florenc
+Malostranská,I. P. Pavlova
+I. P. Pavlova,Muzeum
+Muzeum,Náměstí Míru
+Náměstí Míru,Můstek
+Můstek,Malostranská
+Malostranská,Anděl
+Anděl,Můstek
+Můstek,Náměstí Míru
+Náměstí Míru,I. P. Pavlova
+I. P. Pavlova,Háje
+Háje,Muzeum
+Muzeum,Můstek
+Můstek,Florenc
+Florenc,Hlavní nádraží
+Praha hl.n,Berlin Hbf
+Berlin Hbf,Hackescher Markt
+Hackescher Markt,Alexanderplatz
+Weinmeisterstraße,Leinestraße
+Paradestraße,Kochstraße
+Kochstraße,Oranienburger Tor
+Oranienburger Tor,Hackescher Markt
+Hackescher Markt,Alexanderplatz
+Alexanderplatz,Biesdorf-Süd
+Biesdorf-Süd,Elsterwerdaer Platz
+Bahnhofstaße/Seelenbinderstraße,Strandbad Müggelsee
+Rahnsdorf/Waldschänke,Friedrichshagen
+Friedrichshagen,Alexanderplatz
+Frankfurter Tor,Frankfurter Allee
+Frankfurter Allee,Bundestag
+Berlin Hbf,Hackerscher Markt
+Hackescher Markt,Berlin Hbf
+Berlin Hbf,Duisburg Hbf
+Duisburg Hbf,Amsterdam Centraal
+Amsterdam Centraal,Hoofddorp
+Hoofddorp,Amsterdam Centraal
+Amsterdam Centraal,Schiphol Airport
+Schiphol Airport,Hoofddorp
+Hoofddorp,Schiphol Airport
+Schiphol Airport,Amsterdam Centraal
+Amsterdam C.S.,St Pancras International
+London Euston,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,London Euston
+Warren Street,King's Cross St. Pancras
+King's Cross St. Pancras,Farringdon
+Farringdon,Finsbury Park
+Finsbury Park,Alexandra Palace
+Finsbury Park,Euston
+London Euston,Birmingham New Street
+Kings Norton,Birmingham New Street
+Birmingham Moor Street,London Marylebone
+Marylebone,Waterloo
+London Waterloo,Surbiton
+Surbiton,Clapham Junction
+Clapham Junction,Cosham
+Cosham,Portsmouth & Southsea
+Portsmouth & Southsea,Cosham
+Cosham,Gatwick Airport
+South Terminal,North Terminal
+North Terminal,South Terminal
+South Terminal,North Terminal
+BER Airport,Gesundbrunnen
+Gesundbrunnen,Moritzplatz
+Heinrich-Heine-Straße,Alexanderplatz
+Alexanderplatz,Hauptbahnhof
+Bundestag,Brandenburger Tor
+Yorckstraße,Hermannplatz
+Hermannplatz,Moritzplatz
+Brandenburger Tor,Yorckstraße
+Moritzplatz,Alexanderplatz
+Alexanderplatz,Stadtmitte
+Stadtmitte,Alexanderplatz
+Alexanderplatz/Memhardstr.,Hackescher Markt
+Alexanderplatz,Moritzplatz
+Spandauer Str./ Marienkirche,Alexanderplatz/Memhardstr.
+Märkisches Museum,Stadtmitte
+Stadtmitte,Alexanderplatz
+Alexanderplatz,Moritzplatz
+Moritzplatz,Alexanderplatz
+Alexanderplatz,Stadtmitte
+Unter den Linden,Friedrichstraße
+Friedrichstraße,Potsdamerplatz
+Kochstraße,Friedrichstraße
+Friedrichstraße,Alexanderplatz
+Alexanderplatz,Moritzplatz
+Kottbusser Tor,Gleisdreieck
+Gleisdreieck,Stadtmitte
+Nollendorfplatz,Spittelmarkt
+Spittelmarkt,Stadtmitte
+Stadtmitte,Hausvogteiplatz
+Hausvogteiplatz,Stadtmitte
+Stadtmitte,Gleisdreieck
+Gleisdreieck,Kottbusser Tor
+Kottbusser Tor,Moritzplatz
+Rotes Rathaus,Brandenburger Tor
+Moritzplatz,Alexanderplatz
+Hansaplatz,Zoologischer Garten
+Zoologischer Garten,Hauptbahnhof
+Hauptbahnhof,Flughafen BER
+North Terminal,South Terminal
+Gatwick Airport,Portsmouth & Southsea
+Southsea Hoverport,Ryde Hoverport
+Ryde Esplanade,Smallbrook Junction
+Smallbrook Jn,Havenstreet
+Havenstreet,Wootton
+Wootton,Smallbrook Jn
+Smallbrook Junction,Ryde St Johns Road
+Ryde Hoverport,Southsea Hoverport
+Hassocks,Brighton
+Burgess Hill,Brighton
+Brighton,Chichester
+Chichester,Havant
+Havant,Portsmouth & Southsea
+Hilsea,Portsmouth & Southsea
+Portsmouth & Southsea,London Waterloo
+Waterloo,Baker Street
+Baker Street,Marylebone
+London Marylebone,Solihull
+Kings Norton,Birmingham New Street
+Birmingham New Street,University
+University,Kings Norton
+Kings Norton,Selly Oak
+Selly Oak,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Moor Street,London Marylebone
+Marylebone,Waterloo
+London Waterloo,Portsmouth & Southsea
+Portsmouth & Southsea,London Waterloo
+Waterloo,Marylebone
+London Marylebone,Solihull
+Kings Norton,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham Moor Street,London Marylebone
+Marylebone,Waterloo
+London Waterloo,Portsmouth & Southsea
+Kings Norton,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,Selly Oak
+Selly Oak,Bournville
+Kings Norton,Birmingham New Street
+Birmingham New Street,Machynlleth
+Machynlleth,Porthmadog
+Porthmadog Harbour,Blaenau Ffestiniog
+Blaenau Ffestiniog,Llandudno Junction
+Llandudno Junction,Chester
+Chester,Shrewsbury
+Shrewsbury,Birmingham New Street
+Grand Central,Five Ways
+Birmingham New Street,Kings Norton
+Kings Norton,Birmingham New Street
+Birmingham New Street,Kings Norton
+Kings Norton,University
+University,Worcestershire Parkway
+Worcestershire Parkway,Evesham
+Evesham,Worcestershire Parkway
+Worcestershire Parkway,Birmingham New Street
+Birmingham New Street,Kings Norton
