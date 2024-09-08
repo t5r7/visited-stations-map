@@ -239,6 +239,11 @@
 	background-image: url("brands/f-rgen-frederiksborg.jpg");
 }
 
+.hovertravel {
+	background-color: #fff;
+	background-image: url("brands/hovertravel.jpg");
+}
+
 /* misc */
 .thomas-land-at-drayton-manor {
 	background-color: #fff;
