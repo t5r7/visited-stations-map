@@ -124,7 +124,11 @@
 .nederlandse-spoorwegen {
 	background-color: #fff;
 	background-image: url("brands/nederlandse-spoorwegen.svg");
+}
 
+.bane-nor {
+	background-color: #1f2a5f;
+	background-image: url("brands/no-train.png");
 }
 
 /* tfwm */
@@ -254,4 +258,9 @@
 .birmingham-airport-air-rail-link {
 	background-color: #fff;
 	background-image: url("brands/birmingham-airport-air-rail-link.svg");
+}
+
+.iow-steam-railway {
+	background-color: #fff;
+	background-image: url("brands/iow-steam-railway.jpg");
 }

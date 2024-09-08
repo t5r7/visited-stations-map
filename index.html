@@ -150,6 +150,22 @@
 			text-decoration: none;
 		}
 
+		div#cover a.button {
+			display: inline-block;
+			text-decoration: none;
+			background-color: #fff;
+			color: #000;
+			padding: 0.5em 1em;
+			border-radius: 0.5em;
+			border: 2px solid #000;
+		}
+
+		div#cover a.button:hover {
+			background-color: #111;
+			color: #fff;
+			border: 2px solid #00f;
+		}
+
 		div#cover hr {
 			width: 2em;
 			height: 0.5em;
@@ -162,35 +178,25 @@
 <body>
 	<div id="cover">
 		<div>
-			<!-- <div id="usual-splash">
-				<h1>Station Mapper</h1>
+			<div id="usual-splash">
+				<h1>Visited Station Map</h1>
 
 				<p>
-					This will map a list of stations you have visited.<br><br>
-					See&nbsp;<a href="https://go.tomr.me/stationmap">my&nbsp;Notion&nbsp;page</a> for more information, and for how I have formatted my spreadsheet.
+					This is a map of stations I've visited. A "visit" is defined as arriving at or departing from a station. Getting off and back on the same train doesn't count. Mainline railways, metro systems, trams, heritage railways, and some other oddities are included.
 				</p>
+
+				<a href="javascript:hideCover()" class="button">View &raquo;</a>
 
 				<hr>
-			
-
-				<p>First, pick an <label>
-					icon size (currently <span id="icon-size">18</span>px)<br>
-					<input type="range" min="8" max="40" step="4" value="18" onload="this.value = 18;" onchange="document.getElementById('icon-size').innerText = this.value; iconSize = this.value;" autocomplete="off">
-				</label></p>
-
-				<p>then,</p>
-
-				<p><label>
-						<a href="javascript:document.getElementById('file-upload').click()">Choose</a> a CSV file to load.<br>
-						<input type="file" id="file-upload" style="opacity: 0; height: 0; width: 0; pointer-events: none;" onchange="loadFile(this); hideCover();" accept="text/csv" multiple="no" autocomplete="off">
-					</label> The map will load as soon as you select a file.
-				</p>
-
-				<p style="font-weight: bold; font-style: italic; margin-top: -1.5em; margin-bottom: -1.5em;">or</p>
 
 				<p>
-					<a href="javascript:loadGSheet()" id="gsheet-load-link">load my station list</a><br>
+					You may also be interested in my profiles on <a href="https://yom.railmiles.me">RailMiles</a> and <a href="https://openflights.org/user/yom">OpenFlights</a>.
 				</p>
+
+				<p>
+					The data on this map is fetched from a Google Sheet, which you can view <a href="https://docs.google.com/spreadsheets/d/1RD-5-8crKwORuKXBFUmFvfsBLY_4UsE08_duTvG-218/edit">here</a>.
+				</p>
+				
 
 				<hr>
 
@@ -200,27 +206,7 @@
 					Map powered by <a href="https://leafletjs.com/">Leaflet</a> and <a href="https://www.carto.com/">Carto</a><br>
 					Flag icons by <a href="https://flagicons.lipis.dev/">lipis</a><br>
 					ISO 3166-2 Subdivision Codes data from <a href="https://www.ip2location.com/free/iso3166-2">ip2location</a><br>
-					Station data from <a href="https://github.com/davwheat/uk-railway-stations/">davwheat</a> and <a href="https://github.com/trainline-eu/stations">Trainline</a>
-				</p>
-			</div> -->
-
-			<div id="gsheet-splash">
-				<h1>Station Mapper</h1>
-
-				<hr>
-
-				<p>
-					Loading my station list from Google Sheets...
-				</p>
-
-				<hr>
-
-				<p>2024<br>by <a href="https://tomr.me">tom</a></p>
-				<p style="font-size: 0.8em; text-align: left; opacity: 0.8;">
-					Map powered by <a href="https://leafletjs.com/">Leaflet</a> and <a href="https://www.carto.com/">Carto</a><br>
-					Flag icons by <a href="https://flagicons.lipis.dev/">lipis</a><br>
-					ISO 3166-2 Subdivision Codes data from <a href="https://www.ip2location.com/free/iso3166-2">ip2location</a><br>
-					Station data from <a href="https://github.com/davwheat/uk-railway-stations/">davwheat</a> and <a href="https://github.com/trainline-eu/stations">Trainline</a>
+					Station data from <a href="https://github.com/davwheat/uk-railway-stations/">davwheat</a> and <a href="https://github.com/trainline-eu/stations">Trainline</a><br>
 				</p>
 			</div>
 		</div>
