@@ -131,6 +131,11 @@
 	background-image: url("brands/no-train.png");
 }
 
+.sj {
+	background-color: #fff;
+	background-image: url("brands/sj.svg");
+}
+
 /* tfwm */
 .tfwm-west-mids-metro {
 	background-color: #fff;
